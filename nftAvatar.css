@@ -1,0 +1,88 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    background-color: #0071BC;
+}
+
+.container{
+    display: flex;
+}
+
+.properties{
+    background-color: #48ACEF;
+    display: flex;
+    flex-direction: column;
+}
+.properties img{
+    margin: .8em;
+}
+
+.property-element{
+    display: flex;
+}
+
+.property-element img{
+    margin: .1em;
+    padding: 1em;
+    background-color:  rgb(110, 133, 175);
+    width: 100px;
+}
+
+.avtar h1, p , div , button{
+    margin: 1em;
+}
+.avtar{
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    width: 10rem;
+    margin: 1em;
+    padding: 1em;
+    border: none;
+    border-radius: 1px solid black;
+}
+
+/* TYPOGRAPHY */
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}
+
+.avatar{
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+
+/* ==========
+    z-index classes
+    ================= */
+
+.zindex1{
+    z-index: 1;
+    position: absolute;
+}
+.zindex2{
+    z-index: 2;
+    position: absolute;
+}
+.zindex3{
+    z-index: 3;
+    position: absolute;
+}
+.zindex4{
+    z-index: 4;
+    position: absolute;
+}

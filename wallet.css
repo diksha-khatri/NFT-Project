@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,30,50,0.8);
+    pointer-events: none;
+    /* opacity: 0; */
+}
+.container-wallet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    background-color: #48ACEF;
+    border-radius: 2em;
+    width: 675px;
+    max-width: 100%;
+    color: white;
+    font-family: 'Goblin One', cursive;
+    padding: 3em 6em;
+}
+.container-wallet h1{
+    margin: .5em;
+}
+.container-wallet p{
+    padding:0 1em;
+    font-weight:500 ;
+    font-family: 'Inter', sans-serif;
+}
+.flex-container a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 1em;
+    padding-left: 0;
+}
+.white-circle{
+    width: 2.1em;
+    height: 2.1em;
+    border: none;
+    padding: .2em;
+    margin: 1em;
+    background-color: white;
+    border-radius: 50%;
+}
+.flex-container{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    font-size: 1em;
+    background-color: #00436F;
+    border-radius: 3em;
+    font-family: 'Inter', sans-serif;
+    padding: .3em;
+    margin: 1em;
+    max-width: 233px;
+}
+.flex-container img ,p{
+    margin: .5em;
+}
+
+
+
+.video{
+    margin: auto;
+    background-color: #48ACEF;
+    max-width: 800px;
+    max-height: 643px;
+    border-radius: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5em;
+}
+
+.flex{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.z-index-1{
+    padding-top: 13.2em;
+    position: absolute;
+    z-index: 1;
+}
+
+.image-style{
+    margin: .5em;
+    
+}
+
+.inside-mb-container{
+    font-family: 'Goblin One', cursive;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 1000px;
+    background-color: #48ACEF;
+    color: white;
+    padding: 5em;
+    border-radius: 3em;
+}
+.inline{
+    display: inline-flex;
+    margin: auto;
+}
