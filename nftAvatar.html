@@ -5,23 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Inter:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="nftAvatar.css">
 </head>
 <body>
-    <div class="mainContainer">
-        <div class="container">
-            <div class="properties">
-                <img id="property-element-1" src="./properties/image 2 (1).png" alt="">
-                <img id="property-element-2" src="./properties/image 2 (2).png" alt="">
-                <img id="property-element-3" src="./properties/image 2 (4).png" alt="">
-                <img id="property-element-4" src="./properties/image 2 (5).png" alt="">
-                <img id="property-element-5" src="./properties/image 2 (6).png" alt="">
-                <img id="property-element-6" src="./properties/image 2 (7).png" alt="">
-                <img id="property-element-7" src="./properties/image 2 (8).png" alt="">
-                <img id="property-element-8" src="./properties/image 2 (9).png" alt="">
-                <img id="property-element-9" src="./properties/image 2.png" alt="">
+    <!-- =================
+            Mystery box HTML 
+         =================-->
+         <div id="main-container-box" class="main-container-box">
+            <div class="video ">
+               <video muted settimeout="5000" autoplay loop >
+                   <source src="./mystery-box-video/box.webm" type="video/mp4">
+               </video>
+           </div>
+       </div>
+       <!-- =================
+               Mystery box HTML
+            =================-->
+            <div class="header" >
+                <img src="./home-page/image 9.png" width="85px" height="85px" alt="">
+                
+                <div class="link">
+                    <span class="mycollection-link link">    
+                    <img class="blue-circle" src="./home-page/bag-happy.png " alt="">
+                    <a href="nftAvatar.html">My Collection</a>
+                    </span>
+                    <span class="linkStyle link">
+                    <img class="white-circle" src="./home-page/box.png " alt="">
+                    <a href="nftAvatar.html">Open Mystery Box</a>
+                    </span>
+                </div>
             </div>
-            <div class="property-element" id="property-element"></div>
+    <div class="mainContainer">
+        <div class="container leftMargin">
+            <div class="column1 leftMargin">
+                <div class="properties leftMargin">
+                    <div class="propertiesMargin">
+                        <img id="property-element-1" class="property" src="./properties/image 2 (1).png" alt="">
+                        <img id="property-element-2" class="property" src="./properties/image 2 (2).png" alt="">
+                        <img id="property-element-3" class="property" src="./properties/image 2 (4).png" alt="">
+                        <img id="property-element-4" class="property" src="./properties/image 2 (5).png" alt="">
+                        <img id="property-element-5" class="property" src="./properties/image 2 (6).png" alt="">
+                        <img id="property-element-6" class="property" src="./properties/image 2 (7).png" alt="">
+                        <img id="property-element-7" class="property" src="./properties/image 2 (8).png" alt="">
+                        <img id="property-element-8" class="property" src="./properties/image 2 (9).png" alt="">
+                        <img id="property-element-9" class="property" src="./properties/image 2.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="property-element" id="property-element"></div>
+            </div>
             <div class="avtar">
                 <h1>Avatar NFT</h1>
                 <p>You can create NFT Avatar or You can combine NFT iteams to make NFT avatr like this!</p>
@@ -30,7 +67,25 @@
                     <button class="male btn">Male</button>
                 </div>
                 <div id="avatar"  >
-                    
+                    <div class="avatar" >
+
+                        <span class="smiles zindex3"  data-src="./female-smile/16.png" >  <img id="smile" src="./female-smile/16.png" alt="" style=" width : 60%; z-index: 3; "></span>
+                        
+                        <span class="femaleSpecialPowers zindex4"> <img id="femaleSpecialPowers"
+                        src="./female-special-powers/9.png" alt="" style=" width : 60%; z-index: 4; "></span>
+                        
+                        <span class="femaleCostumes zindex3"> <img  id="femaleCostume"
+                        src="./female-costume/21.png" alt="" style=" width : 60%; z-index: 3; "></span>
+                        
+                        <span class="femaleEyes zindex3"> <img src="./female-eyes/25.png" alt="" style=" width : 60%; z-index: 3; "></span>
+                        
+                        <span class="femaleBodycolor zindex2"> <img src="./female-bodycolor/29.png" alt="" style=" width : 60%; z-index: 2; "></span>
+                        
+                        <span class="femaleBackground zindex1"> <img src="./female-background/35.png" alt="" style=" width : 60%; z-index: 1; "></span>
+                        
+                        <span class="hairs zindex3" > <img id="hair" src="./hairs/11.png" alt="" style=" width : 60%; z-index: 3; "></span>  
+                        </div>
+                        
                 </div>
                 <button class="btn">Mint Webster</button>
             </div>
