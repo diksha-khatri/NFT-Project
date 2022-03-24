@@ -214,19 +214,7 @@ a{
     margin: 2em;
     padding: 2em;
 }
-.container3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 5em 0;
-}
-.container3-innercontainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-   
-}
+
 
 
 .box-style{
@@ -365,6 +353,49 @@ a{
     -webkit-text-fill-color: transparent;
 }
 
+/* slider css */
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5em 0;
+}
+.container3-innercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+   
+}
+.prevArrow, .nextArrow{
+    background-color: #00436F;
+    padding: 1em 1.2em;
+    border: none;
+    border-radius: 50%;
+    color: #48ACEF;
+    position: absolute;
+}
+.prevArrow{
+    left: 48%;
+    bottom: -60px;
+}
+.nextArrow{
+    left: 53%;
+    bottom: -60px;
+}
+.slider{
+    position: relative;
+    width: 90vw;
+}
+.slider_items{
+    margin: 1rem 0;
+}
+.slider_items img{
+    margin: 0;
+    padding: 0;
+}
 
 
 .ribbon{
@@ -380,17 +411,7 @@ a{
 .marquee{
     display: flex;
 }
- .slider {
-	/* background: white; */
-	/* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125); */
-	/* height: 100px;
-	/* margin: auto; */
-	/* overflow:hidden; */
-	/* position: relative; */
-	width: 90vw;
-    /* transform: rotateZ(180deg); */
-	
-}   
+  
 /* .ribbon::before,
 .ribbon::after {
 		/* @include white-gradient; */
