@@ -14,7 +14,7 @@ body{
     
 }
  /* =================
-     Mystery box HTML 
+     Mystery box css
     ================= */
 .video{
     margin: auto;
@@ -42,9 +42,10 @@ body{
     pointer-events: none; 
     opacity: 0; 
     transition:  1 ease;
+    z-index: 8;
 }
 /* =================
-     Mystery box HTML 
+     Mystery box css 
     ================= */
 /* ==================
     WALLET PAGE CSS 
@@ -66,11 +67,9 @@ body{
     pointer-events: none; 
     opacity: 0; 
     transition:  0.3 ease;
+    z-index: 8;
 }
-.show{
-    opacity: 1;
-    pointer-events: auto;
-}
+
 .container-wallet{
 
     display: flex;
@@ -136,6 +135,118 @@ body{
 }
 /* ==================
     WALLET PAGE CSS 
+   ================== */
+   /* ==================
+    Inside MB PAGE CSS 
+   ================== */
+   .inside-mystery-box{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,30,50,0.8);
+    pointer-events: none; 
+    opacity: 0; 
+    transition:  ease;
+    z-index: 8;
+}
+   .image-style1{
+    margin: .5em;
+    
+}
+ 
+.inside-mb-container1{
+    font-family: 'Goblin One', cursive;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-self: center;
+    width: 900px;
+    background-color: #48ACEF;
+    color: white;
+    padding: 5em;
+    border-radius: 2em;
+    position: fixed;
+    
+}
+.inline1{
+    display: inline-flex;
+    margin:0 auto;
+}
+
+.styleP1{
+    background-color: darkgray;
+    border-radius: 2em;
+    font-size: .8em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0 .5em;
+    padding: 1em 2em;
+}
+
+
+.crossIcon1{
+    background-color: #19537a7c;
+    padding: .5em .70em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 6%;
+    left: 90%;
+}
+h2{
+    font-size: 2rem;
+    /* padding: 1.5em; */
+}
+
+.flex1{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.nameFlex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.z-index-11{
+    padding-top: 12em;
+    position: absolute;
+    z-index: 1;
+}
+.z-index-21{
+    margin-left: 10%;
+    padding-top: 12em;
+    position: absolute;
+    z-index: 2;
+}
+.z-index21{
+    margin-left: 6%;
+    margin-top: 18em;
+    position: absolute;
+    z-index: 2;
+}
+.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+   /* ==================
+    Inside MB Home PAGE CSS 
    ================== */
 /* ==================
     Home PAGE CSS 
@@ -369,6 +480,7 @@ a{
     padding: 0;
    
 }
+
 .prevArrow, .nextArrow{
     background-color: #00436F;
     padding: 1em 1.2em;
@@ -377,6 +489,7 @@ a{
     color: #48ACEF;
     position: absolute;
 }
+
 .prevArrow{
     left: 48%;
     bottom: -60px;
@@ -397,10 +510,65 @@ a{
     padding: 0;
 }
 
+.inside-container{
+    display: flex;
+    flex-direction: column;
+}
+.inline{
+    display: inline-flex;
+    margin: 0 auto;
+    
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.flex{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.nameFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.image-style{
+    margin: 5em;
+    
+}
+
+.z-index-1{
+    position: absolute;
+    z-index: 1;
+    top: 17em;
+}
+.z-index-2{
+    margin-left: 8.5%;
+    margin-top: 11.2em;
+    position: absolute;
+    z-index: 2;
+}
+.z-index2{
+    margin-left: 7.75%;
+    margin-top: 18em;
+    position: absolute;
+    z-index: 2;
+}
+
+
 
 .ribbon{
     margin: 0;
     position: relative;
+    z-index: 0;
     display:flex;
     align-items: center;
     max-height: 80px;

@@ -9,6 +9,9 @@ const bnb = document.getElementById("bnb")
 const Score = document.getElementById("score")
 const minus = document.getElementById("minus")
 const plus = document.getElementById("plus")
+const video = document.getElementById("video")
+const insideMB = document.getElementById("inside-mystery-box")
+const close = document.getElementById("close")
 let score = 1
 
 openBox.addEventListener("click", () => {
@@ -16,10 +19,18 @@ openBox.addEventListener("click", () => {
 })
 
 connectWallet.addEventListener("click", () => {
-    mysteryBox.classList.add("show")
     walletContainer.classList.remove("show")
+    mysteryBox.classList.add("show")
+    video.play()
 })
+video.onended = () =>{
 
+            insideMB.classList.add("show")
+            mysteryBox.classList.remove("show")
+}
+close.addEventListener("click",() => {
+    insideMB.classList.remove("show")
+})
 web3.addEventListener("click",() => {
     spanweb3.classList.add("White-background")
     

@@ -20,8 +20,8 @@
             Mystery box HTML 
          =================-->
     <div id="main-container-box" class="main-container-box">
-         <div class="video ">
-            <video muted settimeout="5000" autoplay loop >
+         <div class="video " >
+            <video id="video" muted settimeout="5000" >
                 <source src="./mystery-box-video/box.webm" type="video/mp4">
             </video>
         </div>
@@ -47,7 +47,55 @@
     </div> 
     <!-- =================
             WALLET HTML 
-         =================-->            
+         =================-->     
+         <!-- =================
+            Inside MB Page HTML 
+         =================-->
+         <div class="inside-mystery-box" id="inside-mystery-box">
+            <div class="inside-mb-container1 ">
+                <a href="#"><i id="close" class="fa-solid fa-xmark crossIcon1"></i></a>
+                            <div class="inline1">
+                                <img src="./home-page/Vector (1).png" alt=""> 
+                                <h2>Inside Mystery Box</h2> 
+                                <img src="./home-page/Vector.png" alt=""> 
+                            </div>
+                <div class="flex1">
+                    <div class="image-style1 ">
+                        <div class="nameFlex1 z-index-21" >
+                            <h3 >Mae</h3>
+                            <img  src="./home-page/star.png" alt="">
+                        </div>
+                        <p class="styleP1 style-11 z-index21">Common - 81%</p>
+                        <img src="./home-page/Rectangle 6784.png" class="z-index-11" alt="">
+                        <img  src="./home-page/Rectangle 6783.png"  alt="">
+                       
+                    </div>
+                    <div class="image-style1">
+                        <div class="nameFlex1 z-index-21" >
+                            <h3 >Mae</h3>
+                            <img  src="./home-page/star.png" alt="">
+                        </div>
+                        <p class="styleP1 style-11 z-index21">Common - 81%</p>
+                        <img src="./home-page/Rectangle 6784 (1).png " class="z-index-11" alt="">
+                        <img  src="./home-page/Rectangle 6783 (1).png"  alt="">
+                       
+                    </div>
+                    <div class="image-style1">
+                        <div class="nameFlex1 z-index-21" >
+                            <h3 >Mae</h3>
+                            <img  src="./home-page/star.png" alt="">
+                        </div>
+                        <p class="styleP1 style-11 z-index21">Common - 81%</p>
+                        <img src="./home-page/Rectangle 6784 (2).png" class="z-index-11" alt="">
+                        <img src="./home-page/Rectangle 6783 (2).png"  alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- =================
+            Inside MB Page HTML 
+         =================-->       
     <main>   
             <div class="maincontainer">
                 <div class="nftheader" >
@@ -170,23 +218,79 @@
 
 
                     <div class="container3">
-                        <div class="inline">
-                            <img src="./home-page/Vector (1).png" alt=""> 
-                            <h2>Inside Mystery Box</h2> 
-                            <img src="./home-page/Vector.png" alt=""> 
-                        </div>
-                        <div class="image-container container3-innercontainer slider"
-                        >   
+                        <div class="inside-container">
                             
-                             <div class="slider_items"><img src="./home-page/Rectangle 6783.png" alt=""></div>
-                             <div class="slider_items"><img src="./home-page/Rectangle 6783 (1).png" alt=""></div>
-                             <div class="slider_items"><img src="./home-page/Rectangle 6783 (2).png" alt=""></div>
-                             <div class="slider_items"><img src="./home-page/Rectangle 6783.png" alt=""></div>
-                             <div class="slider_items"><img src="./home-page/Rectangle 6783 (1).png" alt=""></div>
-                             <div class="slider_items"><img src="./home-page/Rectangle 6783 (2).png" alt=""></div>
-                             
-                        </div>
-                    </div>
+                            <div class="inline">
+                                <img src="./home-page/Vector (1).png" alt=""> 
+                                <h2>Inside Mystery Box</h2> 
+                                <img src="./home-page/Vector.png" alt=""> 
+                            </div>
+                            <div class="image-container container3-innercontainer slider flex">   
+                                
+                                <div class="image-style slider_items">
+                                    <div class="nameFlex z-index-2" >
+                                        <h3 >Mae</h3>
+                                        <img  src="./home-page/star.png" alt="">
+                                    </div>
+                                    <p class="styleP style-1 z-index2">Common - 81%</p>
+                                    <img src="./home-page/Rectangle 6784.png" class="z-index-1" alt="">
+                                    <img  src="./home-page/Rectangle 6783.png"  alt="">
+                                
+                                </div>
+                                <div class="image-style slider_items">
+                                    <div class="nameFlex z-index-2" >
+                                        <h3 >Mae</h3>
+                                        <img  src="./home-page/star.png" alt="">
+                                    </div>
+                                    <p class="styleP style-1 z-index2">Common - 81%</p>
+                                    <img src="./home-page/Rectangle 6784 (1).png " class="z-index-1" alt="">
+                                    <img  src="./home-page/Rectangle 6783 (1).png"  alt="">
+                                
+                                </div>
+                                <div class="image-style slider_items">
+                                    <div class="nameFlex z-index-2" >
+                                        <h3 >Mae</h3>
+                                        <img  src="./home-page/star.png" alt="">
+                                    </div>
+                                    <p class="styleP style-1 z-index2">Common - 81%</p>
+                                    <img src="./home-page/Rectangle 6784 (2).png" class="z-index-1" alt="">
+                                    <img src="./home-page/Rectangle 6783 (2).png"  alt="">
+                                    
+                                </div>
+                                <div class="image-style slider_items">
+                                    <div class="nameFlex z-index-2" >
+                                        <h3 >Mae</h3>
+                                        <img  src="./home-page/star.png" alt="">
+                                    </div>
+                                    <p class="styleP style-1 z-index2">Common - 81%</p>
+                                    <img src="./home-page/Rectangle 6784.png" class="z-index-1" alt="">
+                                    <img  src="./home-page/Rectangle 6783.png"  alt="">
+                                
+                                </div>
+                                <div class="image-style slider_items">
+                                    <div class="nameFlex z-index-2" >
+                                        <h3 >Mae</h3>
+                                        <img  src="./home-page/star.png" alt="">
+                                    </div>
+                                    <p class="styleP style-1 z-index2">Common - 81%</p>
+                                    <img src="./home-page/Rectangle 6784 (1).png " class="z-index-1" alt="">
+                                    <img  src="./home-page/Rectangle 6783 (1).png"  alt="">
+                                
+                                </div>
+                                <div class="image-style slider_items">
+                                    <div class="nameFlex z-index-2" >
+                                        <h3 >Mae</h3>
+                                        <img  src="./home-page/star.png" alt="">
+                                    </div>
+                                    <p class="styleP style-1 z-index2">Common - 81%</p>
+                                    <img src="./home-page/Rectangle 6784 (2).png" class="z-index-1" alt="">
+                                    <img src="./home-page/Rectangle 6783 (2).png"  alt="">
+                                    
+                                </div>
+                                
+                                
+                            </div>
+                     </div>
                 </div>
             </div>
 
